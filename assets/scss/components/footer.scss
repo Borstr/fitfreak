@@ -1,0 +1,16 @@
+.footer {
+  background-color: #000;
+  width: 100;
+  margin-top: 100px;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, .24), 0 -2px 5px rgba(0, 0, 0, .48);
+
+  &__container {
+    max-width: 1366px;
+    padding: 1rem;
+    
+  }
+
+  &__link {
+    color: #aaa;
+  }
+}

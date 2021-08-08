@@ -1,0 +1,36 @@
+.nav {
+  background-color: #DB8379;
+  width: 100vw;
+  height: 64px;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .24), 0 2px 5px rgba(0, 0, 0, .48);
+
+  &__menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+
+  & a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1rem;
+    line-height: 4rem;
+    display: block;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+    font-weight: bold;
+
+    &:hover, &:focus {
+      background-color: rgba(255, 220, 226, .8);
+      color: #000;
+    }
+
+  }
+}
